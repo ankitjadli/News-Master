@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgg"
+    android:layout_height="match_parent"
+    tools:context=".cata">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/newtitle"
+        android:id="@+id/selectnews"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hindishow"
+        android:layout_below="@+id/selectnews"
+        android:id="@+id/hindiadd"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hindidel"
+        android:visibility="invisible"
+        android:layout_below="@+id/selectnews"
+        android:id="@+id/hindidel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/selectnews"
+        android:layout_width="133dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        app:lottie_fileName="tick.json"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/politics"
+        android:layout_below="@+id/hindiadd"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/politicsadd"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/politicsdel"
+        android:visibility="invisible"
+        android:layout_below="@+id/hindiadd"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/politicsdel"
+        android:layout_marginLeft="30dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie2"
+        android:layout_below="@+id/hindiadd"
+        android:layout_width="133dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        app:lottie_fileName="tick.json"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/weather"
+        android:layout_below="@+id/politicsadd"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/weatheradd"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/weatherdel"
+        android:visibility="invisible"
+        android:layout_below="@+id/politicsadd"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/weatherdel"
+        android:layout_marginLeft="30dp"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie3"
+        android:layout_below="@+id/politicsadd"
+        android:layout_width="133dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        app:lottie_fileName="tick.json"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sports"
+        android:layout_below="@+id/selectnews"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/sportsadd"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sportsdel"
+        android:visibility="invisible"
+        android:layout_below="@+id/selectnews"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/sportsdel"
+        android:layout_marginRight="30dp"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie4"
+        android:layout_below="@+id/selectnews"
+        android:layout_width="133dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="85dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        app:lottie_fileName="tick.json"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tech"
+        android:layout_below="@+id/sportsadd"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/techadd"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/techdel"
+        android:visibility="invisible"
+        android:layout_below="@+id/sportsadd"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/techdel"
+        android:layout_marginRight="30dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie5"
+        android:layout_below="@+id/sportsadd"
+        android:layout_width="133dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="85dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        app:lottie_fileName="tick.json"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btown"
+        android:layout_below="@+id/techadd"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btownadd"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btowndel"
+        android:visibility="invisible"
+        android:layout_below="@+id/techadd"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btowndel"
+        android:layout_marginRight="30dp"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie6"
+        android:layout_below="@+id/techadd"
+        android:layout_width="133dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="85dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        app:lottie_fileName="tick.json"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/worldshow"
+        android:layout_below="@+id/weatheradd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/worldadd"
+        android:layout_marginRight="60dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/worlddel"
+        android:visibility="invisible"
+        android:layout_below="@+id/weatheradd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/worlddel"
+        android:layout_marginRight="60dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie7"
+        android:layout_below="@+id/weatheradd"
+        android:layout_width="133dp"
+        android:layout_height="85dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:lottie_fileName="tick.json"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/mainac"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+</RelativeLayout>
